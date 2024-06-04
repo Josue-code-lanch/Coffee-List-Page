@@ -1,0 +1,10 @@
+.contain {
+  background-color: #1b1d1f;
+  display: inline-block;
+  position: absolute;
+  top: 53%;
+  left: 8%;
+  max-width: 85%;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}

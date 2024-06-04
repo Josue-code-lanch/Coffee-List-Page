@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+  background-color: #111315;
+  max-width: 100%;
+  color: #fef7ee;
+  position: absolute;
+  margin: 0 0 50px 0;
+}
+
+img {
+  border-radius: 0;
+  max-width: 100%;
+}
