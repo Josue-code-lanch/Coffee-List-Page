@@ -10,20 +10,20 @@ export default function CoffeMenu() {
       <div className="row">
         <Card
           popular={pop}
-          img={"coffee1.jpg"}
+          img={"./src/assets/images/coffee1.jpg"}
           coffee={"Cappuccino"}
           price={"$5.20"}
           votes={"4.7 (65 votes)"}
         />
         <Card
           popular={pop}
-          img={"coffee2.jpg"}
+          img={"./src/assets/images/coffee2.jpg"}
           coffee={"Hosue Coffee"}
           price={"$3.50"}
           votes={"4.85 (14 votes)"}
         />
         <Card
-          img={"coffee3.jpg"}
+          img={"./src/assets/images/coffee3.jpg"}
           coffee={"Espresso"}
           price={"$2.50"}
           votes={"4.9 (55 votes)"}
@@ -31,20 +31,20 @@ export default function CoffeMenu() {
       </div>
       <div className="row">
         <Card
-          img={"coffee4.jpg"}
+          img={"./src/assets/images/coffee4.jpg"}
           coffee={"Coffee Latte"}
           price={"$4.50"}
           votes={"5.0 (23 votes)"}
         />
         <Card
-          img={"coffee5.jpg"}
+          img={"./src/assets/images/coffee5.jpg"}
           coffee={"Chocolate Coffee"}
           price={"$4.00"}
           votes={"4.65 (122 votes)"}
           soldOut={"Sold Out"}
         />
         <CardEnd
-          img={"coffee6.jpg"}
+          img={"./src/assets/images/coffee6.jpg"}
           coffee={"Valentine Special"}
           price={"$5.50"}
           votes={"No ratings"}
