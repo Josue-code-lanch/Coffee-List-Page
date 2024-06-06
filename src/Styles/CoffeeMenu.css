@@ -70,3 +70,119 @@
 p {
   margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    font-size: 1.5rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px dotted rgb(60, 53, 46);
+    margin-bottom: 20px;
+  }
+  .card img {
+    width: 100%;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  .price {
+    font-size: 1rem;
+  }
+  .vote {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 759px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    font-size: 1.5rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px dotted rgb(60, 53, 46);
+    margin-bottom: 20px;
+  }
+  .card img {
+    width: 100%;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  .price {
+    font-size: 1rem;
+  }
+  .vote {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 400px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+  }
+  .card img {
+    min-width: 400px;
+    height: 250px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  .price {
+    font-size: 0.8rem;
+  }
+  .vote {
+    font-size: 0.8rem;
+  }
+}
