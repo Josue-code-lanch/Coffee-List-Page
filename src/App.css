@@ -8,3 +8,11 @@
   border-radius: 10px;
   padding-bottom: 50px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .contain {
+    max-width: 68%;
+    top: 53%;
+    left: 16%;
+  }
+}

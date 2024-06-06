@@ -1,6 +1,5 @@
 import Star from "./Star";
 import StarFill from "./StarFill";
-import Votes from "./Votes";
 import "../Styles/CoffeeMenu.css";
 
 export default function CoffeMenu() {
