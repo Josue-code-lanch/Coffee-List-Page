@@ -17,7 +17,7 @@ export default function CoffeMenu() {
         <Card
           popular={pop}
           img={"/images/coffee2.jpg"}
-          coffee={"Hosue Coffee"}
+          coffee={"House Coffee"}
           price={"$3.50"}
           votes={"4.85 (14 votes)"}
         />
@@ -49,6 +49,7 @@ export default function CoffeMenu() {
           votes={"No ratings"}
         />
       </div>
+      <p className="copyright">&copy; 2024 CoffeHour. All Rights Reserved</p>
     </>
   );
 }
